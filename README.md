@@ -1,4 +1,4 @@
-# Dropkiq
+# 💣 Dropkiq
 ## Liquid Expressions Simplified
 
 ### WHAT WE DO

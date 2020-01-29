@@ -1,2 +1,2 @@
-* [Dropkiq](/ "Official Dropkiq Documentation")
-* [Guide](guide.md "The greatest guide in the world")
+* [💣 Dropkiq](/ "Official Dropkiq Documentation")
+* [⚡️ Ruby on Rails Quick Start](quick-start.md "Quickly Add Dropkiq to your RoR Application")
