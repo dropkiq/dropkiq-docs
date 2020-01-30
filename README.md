@@ -4,7 +4,7 @@
 
 ### WHAT WE DO
 
-Dropkiq is a Javascript Plugin that enables [Liquid](https://shopify.github.io/liquid/) (by Shopify) code autocompletion to your application! Try the [demo](https://app.dropkiq.com/demo), or [download](https://app.dropkiq.com/download) now to try Dropkiq in your application for free.
+Dropkiq is a Javascript Plugin that enables [Liquid](https://shopify.github.io/liquid/) code autocompletion directly within your application! Try the [demo](https://app.dropkiq.com/demo), or [download](https://app.dropkiq.com/download) now to try Dropkiq in your application for free.
 
 ![Dropkiq Liquid Code Autocompletion](https://uploads-ssl.webflow.com/5dc02bba4f3e353af50977b1/5e2b3c6fa9923d29d53926d2_hero.png)
 
