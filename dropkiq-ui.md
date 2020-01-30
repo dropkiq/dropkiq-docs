@@ -60,16 +60,14 @@ In SCSS file:
 Add Javascript
 
 ```
-<script src="https://unpkg.com/dropkiq-ui@1.0.22/dist/dropkiq.min.js
+<script src="https://unpkg.com/dropkiq-ui@1.0.22/dist/dropkiq.min.js">
 ```
 
 Add CSS
 
 ```
-<link rel="stylesheet" type="text/css" href="https://unpkg.com/dropkiq-ui@1.0.22/dist/dropkiq.css>
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/dropkiq-ui@1.0.22/dist/dropkiq.css">
 ```
-
-See [https://codepen.io/akdarrah/pen/gObNaMo](https://codepen.io/akdarrah/pen/gObNaMo) for example.
 
 ## Usage
 
@@ -79,6 +77,12 @@ See [https://codepen.io/akdarrah/pen/gObNaMo](https://codepen.io/akdarrah/pen/gO
 * **scope** A Javascript object with test (preview) data
 * **licenseKey** Purchased from http://dropkiq.com to unlock the Pro version
 
+&nbsp;
+
 ```
 new window.DropkiqUI(element, schema, context, scope, licenseKey);
 ```
+
+&nbsp;
+
+See [https://codepen.io/akdarrah/pen/gObNaMo](https://codepen.io/akdarrah/pen/gObNaMo) for example.

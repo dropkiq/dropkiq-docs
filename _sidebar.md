@@ -3,3 +3,4 @@
 * [⚡️ Ruby on Rails Quick Start](quick-start.md "Quickly Add Dropkiq to your RoR Application")
 * [💎 Dropkiq Ruby Gem](ruby-gem.md "The Dropkiq Ruby Gem")
 * [🚀 Dropkiq UI](dropkiq-ui.md "Javascript Dropkiq UI")
+* [🧠 Dropkiq Engine](dropkiq-engine.md "Javascript Dropkiq Engine")
