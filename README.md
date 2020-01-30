@@ -1,4 +1,5 @@
-# 💣 Dropkiq Overview
+![Dropkiq_logo-dk](https://user-images.githubusercontent.com/69064/68704782-dd868e80-055a-11ea-952c-78bd9e9344d6.png)
+
 ## Liquid Expressions Simplified
 
 ### WHAT WE DO
