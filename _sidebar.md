@@ -1,3 +1,4 @@
 * [💣 Dropkiq Overview](/ "Official Dropkiq Documentation")
+* [🥊 Javascript Quick Start](javascript-quick-start.md "Quickly Implement Dropkiq For Your UI")
 * [⚡️ Ruby on Rails Quick Start](quick-start.md "Quickly Add Dropkiq to your RoR Application")
 * [💎 Dropkiq Ruby Gem](ruby-gem.md "The Dropkiq Ruby Gem")
