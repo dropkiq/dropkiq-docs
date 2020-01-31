@@ -6,13 +6,13 @@
 
 Add the Gem to your application's `Gemfile`:
 
-```
+```bash
 gem 'dropkiq', "~> 0.1.11", git: "git@github.com:akdarrah/dropkiq-gem.git"
 ```
 
 Run bundle to install the Gem:
 
-```
+```bash
 $ bundle
 ```
 
@@ -20,7 +20,7 @@ $ bundle
 
 #### 2. Use the Dropkiq Ruby Gem to generate your application's Dropkiq Schema file
 
-```
+```bash
 $ bundle exec rake dropkiq:schema
 ```
 
@@ -32,20 +32,20 @@ Follow the Gem [instructions](https://github.com/akdarrah/dropkiq-gem#usage) to 
 
 [Download](https://app.dropkiq.com/download) Dropkiq UI. This guide will assume that your application uses [Webpacker](https://github.com/rails/webpacker) and we'll install using Yarn.
 
-```
+```bash
 $ yarn add dropkiq-ui
 ```
 
 Then, in `app/javascript/packs/example-bundle.ts`, import `DropkiqUI`:
 
-```
+```javascript
 var { DropkiqUI } = require('dropkiq-ui');
 window['DropkiqUI'] = DropkiqUI;
 ```
 
 Import the stylesheets in `app/assets/stylesheets/application.scss`:
 
-```
+```sass
 @import 'dropkiq-ui/dist/dropkiq';
 ```
 
@@ -55,7 +55,7 @@ Import the stylesheets in `app/assets/stylesheets/application.scss`:
 
 Use the following code to load the `db/dropkiq_schema.yaml` file in your Rails controller:
 
-```
+```ruby
 class ExamplesController < ApplicationController
   before_action :load_dropkiq_schema
   # ...
@@ -73,7 +73,7 @@ end
 
 #### 5. Use javascript to initialize the Dropkiq UI in your view:
 
-```
+```javascript
 // Load the dropkiq_schema.yaml file (Required)
 var schema = gon.dropkiq_schema;
 

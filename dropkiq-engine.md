@@ -29,19 +29,19 @@ Dropkiq Engine is hosted on NPM and can be installed via: npm, yarn, ZIP file, o
 
 **For npm or Yarn:**
 
-```
+```bash
 $ npm install dropkiq
 ```
 
 or
 
-```
+```bash
 $ yarn add dropkiq
 ```
 
 Then, access the DropkiqEngine class via require:
 
-```
+```javascript
 const { DropkiqEngine } = require('dropkiq')
 ```
 
@@ -49,7 +49,7 @@ const { DropkiqEngine } = require('dropkiq')
 
 Add Javascript
 
-```
+```html
 <script src="https://unpkg.com/dropkiq@1.0.29/dist/dropkiq-engine.min.js">
 ```
 
@@ -65,7 +65,7 @@ Add Javascript
 
 &nbsp;
 
-```
+```javascript
 // Initialize the Dropkiq Engine
 var dropkiqEngine = new DropkiqEngine(text, cursorIndex, schema, context, scope, licenseKey);
 

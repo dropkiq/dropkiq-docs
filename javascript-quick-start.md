@@ -14,11 +14,11 @@ For this example, we will use a pretend "Email Marketing" application as an exam
 
 Use the [Dropkiq Download](https://app.dropkiq.com/download) page to determine the best way for you to download Dropkiq UI. In this example, we'll use Yarn:
 
-```
+```bash
 $ yarn add dropkiq-ui
 ```
 
-```
+```javascript
 var { DropkiqUI } = require('dropkiq-ui');
 ```
 
@@ -28,7 +28,7 @@ var { DropkiqUI } = require('dropkiq-ui');
 
 For Ruby on Rails applications, your Schema can be automatically generated using the [Dropkiq Ruby Gem](https://github.com/akdarrah/dropkiq-gem). However, the Dropkiq Ruby Gem is not required! Your schema can be created in any way that makes sense for your application. The only requirement is that the data must be in the following format:
 
-```
+```javascript
 var schema = {
   "[YOUR_TABLE_OR_MODEL_NAME]": {
     "methods": {
@@ -45,7 +45,7 @@ var schema = {
 For our application, let's assume that we have the following `Liquid::Drop` classes:
 
 
-```
+```ruby
 class ContactDrop < Liquid::Drop
   def initialize(contact)
     @contact = contact
@@ -89,7 +89,7 @@ class ContactDrop < Liquid::Drop
 end
 ```
 
-```
+```ruby
 class WebsiteDrop < Liquid::Drop
   def initialize(website)
     @website = website
@@ -107,7 +107,7 @@ end
 
 Since this is only two classes, it is trivial to write the Schema by hand. Keep in mind that "hint" is optional.
 
-```
+```javascript
 var schema = {
   contacts: {
     methods: {
@@ -178,7 +178,7 @@ Your schema object describes how classes are associated within your application 
 
 For example, let's say that the user is writing a marketing email within the application. Your context could look something like this:
 
-```
+```javascript
 var context = {
   email_subject: {
     type: "ColumnTypes::String",
@@ -211,7 +211,7 @@ Notice that we are referencing the schema through `foreign_table_name`. Addition
 
 The scope data is optional, and provides test data that Dropkiq will render as Previews along side each suggestion. For our example, we can provide an object that looks like this:
 
-```
+```javascript
 // Test data that is used for the preview feature (optional)
 var scope = {
   email_subject: "Try Dropkiq Today!",
@@ -242,13 +242,13 @@ var scope = {
 
 Now that we have our `schema`, `context`, and `scope`, we can use this data to bring our DropkiqUI to life! Let's assume that we have the following HTML code in our view:
 
-```
+```html
 <textarea id="dropkiq-example"></textarea>
 ```
 
 Our javascript will look like this:
 
-```
+```javascript
 var textArea = document.getElementById('dropkiq-example');
 var options  = {};
 new window.DropkiqUI(textArea, schema, context, scope, "license-key-goes-here", options);

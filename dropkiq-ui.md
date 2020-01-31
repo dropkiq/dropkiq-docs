@@ -33,25 +33,25 @@ Dropkiq UI is hosted on NPM and can be installed via: npm, yarn, ZIP file, or CD
 
 **For npm or Yarn:**
 
-```
+```bash
 $ npm install dropkiq-ui
 ```
 
 or
 
-```
+```bash
 $ yarn add dropkiq-ui
 ```
 
 Then, access the Dropkiq UI class via require:
 
-```
+```javascript
 var { DropkiqUI } = require('dropkiq-ui');
 ```
 
 In SCSS file:
 
-```
+```sass
 @import 'dropkiq-ui/dist/dropkiq';
 ```
 
@@ -59,13 +59,13 @@ In SCSS file:
 
 Add Javascript
 
-```
+```html
 <script src="https://unpkg.com/dropkiq-ui@1.0.22/dist/dropkiq.min.js">
 ```
 
 Add CSS
 
-```
+```html
 <link rel="stylesheet" type="text/css" href="https://unpkg.com/dropkiq-ui@1.0.22/dist/dropkiq.css">
 ```
 
@@ -79,7 +79,7 @@ Add CSS
 
 &nbsp;
 
-```
+```javascript
 new window.DropkiqUI(element, schema, context, scope, licenseKey);
 ```
 

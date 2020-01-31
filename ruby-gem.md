@@ -29,7 +29,7 @@ This Gem makes several assumptions about your Ruby on Rails application:
 This Gem provides a rake command to generate a schema file that can be used to manage Fixtures on Dropkiq. Create the `db/dropkiq_schema.yaml` file by running the following command:
 
 
-```
+```bash
 bundle exec rake dropkiq:schema
 ```
 
