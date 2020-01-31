@@ -4,7 +4,7 @@
 
 **It is recommended that everyone reads this (even if you intend to use Dropkiq in a Ruby on Rails application).**
 
-This guide is intended to help you understand how the DropkiqUI works and can be quickly implemented in your web application (even if you don't use Ruby on Rails).
+This guide will help you understand how the DropkiqUI works and can be quickly implemented in your web application (even if you don't use Ruby on Rails).
 
 For this example, we will use a pretend "Email Marketing" application as an example (as used in the [Dropkiq Demo](https://app.dropkiq.com/demo)). In our app, we have a "Contact" and "Website" model.
 
