@@ -7,7 +7,7 @@
 Add the Gem to your application's `Gemfile`:
 
 ```bash
-gem 'dropkiq', "~> 0.1.11", git: "git@github.com:akdarrah/dropkiq-gem.git"
+gem 'dropkiq', "~> 0.1.11", git: "https://github.com/akdarrah/dropkiq-gem"
 ```
 
 Run bundle to install the Gem:
