@@ -4,3 +4,4 @@
 * [💎 Dropkiq Ruby Gem](ruby-gem.md "The Dropkiq Ruby Gem")
 * [🚀 Dropkiq UI](dropkiq-ui.md "Javascript Dropkiq UI")
 * [🧠 Dropkiq Engine](dropkiq-engine.md "Javascript Dropkiq Engine")
+* [☄️ Suggestion Filter](suggestionFilter.md "Javascript Dropkiq Engine suggestionFilter Option")
