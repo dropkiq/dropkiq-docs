@@ -34,4 +34,4 @@ new FroalaEditor('#dropkiq-example', {
 
 &nbsp;
 
-See example code from the [Dropkiq UI demo](https://github.com/akdarrah/dropkiq-ui/blob/master/demo/froala.html)
+See example code in the [Dropkiq UI Repository](https://github.com/akdarrah/dropkiq-ui/blob/master/demo/froala.html) or view the [live demo](https://app.dropkiq.com/demos/froala).
