@@ -1,4 +1,4 @@
-![Dropkiq_logo-dk](https://user-images.githubusercontent.com/69064/68704782-dd868e80-055a-11ea-952c-78bd9e9344d6.png)
+<img src="https://user-images.githubusercontent.com/69064/68704782-dd868e80-055a-11ea-952c-78bd9e9344d6.png" style="max-height: 100px">
 
 ## Liquid Expressions Simplified
 
@@ -6,7 +6,7 @@
 
 Dropkiq is a Javascript Plugin that enables [Liquid](https://shopify.github.io/liquid/) code autocompletion directly within your application! Check out the [demo](https://app.dropkiq.com/demo), or [download](https://app.dropkiq.com/download) now to try Dropkiq in your application for free.
 
-![Dropkiq Liquid Code Autocompletion](https://uploads-ssl.webflow.com/5dc02bba4f3e353af50977b1/5e2b3c6fa9923d29d53926d2_hero.png)
+<img src="https://uploads-ssl.webflow.com/5dc02bba4f3e353af50977b1/5e2b3c6fa9923d29d53926d2_hero.png" style="max-height: 300px;">
 
 * 🧐 **Immediate Feedback** Know exactly how your expressions will evaluate in real time.
 * 🤬 **No More Typos** Identify mistakes as they happen and take corrective measures.
