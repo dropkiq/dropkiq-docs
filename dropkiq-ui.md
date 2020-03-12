@@ -4,7 +4,7 @@
 
 The Dropkiq UI is a javascript library that brings the Dropkiq Engine to your HTML Textarea, input, or contenteditable fields.
 
-Since many WYSIWYG editors are built on top of contenteditable, there is a chance that DropkiqUI could work without any modification. However, if your WYSISYG doesn't work, feel free to let me know at adam@dropkiq.com.
+Since many WYSIWYG editors are built on top of contenteditable, there is a chance that DropkiqUI could work without any modification. However, if your WYSIWYG doesn't work, feel free to let me know at adam@dropkiq.com.
 
 * [Dropkiq UI Github](https://github.com/akdarrah/dropkiq-ui)
 * [Dropkiq UI NPM](https://www.npmjs.com/package/dropkiq-ui)
