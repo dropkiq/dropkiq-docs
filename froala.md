@@ -31,6 +31,35 @@ new FroalaEditor('#dropkiq-example', {
   }
 })
 ```
+&nbsp;
+
+## Iframes
+
+Dropkiq is also able to support WYSIWYG editors that use iframes.
+
+Many WYSIWYG editors use iframes to avoid any collisions between the main page content and the content within the WYSIWYG editor. Here is an example of how Froala can be used with Dropkiq with the iframe mode enabled.
+
+```javascript
+new FroalaEditor('#dropkiq-iframe-example', {
+  iframe: true,
+  events: {
+    initialized: function() {
+      var editor = this;
+      var iframe = document.getElementsByClassName("fr-iframe")[0];
+
+      // Initialize the Standard DropkiqUI for demo elements
+      // https://www.npmjs.com/package/dropkiq-ui
+      var dropkiqUI = new DropkiqUI(editor.el, schema, context, scope, gon.licenseKey, {iframe: iframe});
+
+      editor.events.on('keydown', function(e) {
+        if (e.which == FroalaEditor.KEYCODE.ENTER && dropkiqUI.menuMode) {
+          return false;
+        }
+      }, true);
+    }
+  }
+})
+```
 
 &nbsp;
 
