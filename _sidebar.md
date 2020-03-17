@@ -3,6 +3,7 @@
 * [⚡️ Ruby on Rails Quick Start](quick-start.md "Quickly Add Dropkiq to your RoR Application")
 * [💎 Dropkiq Ruby Gem](ruby-gem.md "The Dropkiq Ruby Gem - Integrate Dropkiq into your Ruby on Rails application for the fastest integration possible.")
 * [🧠 Dropkiq Engine](dropkiq-engine.md "Javascript Dropkiq Engine - Liquid code Autosuggestion for your application")
-* [☄️ Suggestion Filter](suggestionFilter.md "Javascript Dropkiq Engine suggestionFilter Option")
 * [🚀 Dropkiq UI](dropkiq-ui.md "Javascript Dropkiq UI - Liquid Code Autocompletion for HTML Textarea, input, and contenteditable fields")
 * [📦 Froala WYSIWYG Editor](froala.md "Dropkiq Liquid Autocompletion for Froala WYSIWYG Editor")
+* [☄️ Suggestion Filter](suggestionFilter.md "Javascript Dropkiq Engine suggestionFilter Option")
+* [🏎 Using IFrames](iframes.md "Javascript Dropkiq Engine suggestionFilter Option")
