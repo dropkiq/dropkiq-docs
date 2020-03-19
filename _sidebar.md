@@ -5,5 +5,6 @@
 * [🧠 Dropkiq Engine](dropkiq-engine.md "Javascript Dropkiq Engine - Liquid code Autosuggestion for your application")
 * [🚀 Dropkiq UI](dropkiq-ui.md "Javascript Dropkiq UI - Liquid Code Autocompletion for HTML Textarea, input, and contenteditable fields")
 * [📦 Froala WYSIWYG Editor](froala.md "Dropkiq Liquid Autocompletion for Froala WYSIWYG Editor")
+* [🐒 CodeMirror](codemirror.md "Dropkiq Liquid Autocompletion for CodeMirror")
 * [☄️ Suggestion Filter](suggestionFilter.md "Javascript Dropkiq Engine suggestionFilter Option")
 * [🏎 Using IFrames](iframes.md "Javascript Dropkiq Engine suggestionFilter Option")
