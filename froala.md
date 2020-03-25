@@ -23,7 +23,7 @@ new FroalaEditor('#dropkiq-example', {
       var dropkiqUI = new DropkiqUI(editor.el, schema, context, scope, "");
 
       editor.events.on('keydown', function(e) {
-        if (e.which == FroalaEditor.KEYCODE.ENTER && dropkiqUI.menuMode) {
+        if (e.which == FroalaEditor.KEYCODE.ENTER && dropkiqUI.menuIsOpen()) {
           return false;
         }
       }, true);
@@ -52,7 +52,7 @@ new FroalaEditor('#dropkiq-iframe-example', {
       var dropkiqUI = new DropkiqUI(editor.el, schema, context, scope, gon.licenseKey, {iframe: iframe});
 
       editor.events.on('keydown', function(e) {
-        if (e.which == FroalaEditor.KEYCODE.ENTER && dropkiqUI.menuMode) {
+        if (e.which == FroalaEditor.KEYCODE.ENTER && dropkiqUI.menuIsOpen()) {
           return false;
         }
       }, true);

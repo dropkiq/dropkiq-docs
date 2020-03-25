@@ -26,7 +26,7 @@ editor.on('instanceReady', function(event){
 
 editor.on( 'key', function(evt) {
   // Enter key
-  if (evt.data.keyCode === 13 && dropkiqUI.menuMode) {
+  if (evt.data.keyCode === 13 && dropkiqUI.menuIsOpen()) {
     evt.cancel();
   }
 });
