@@ -4,6 +4,7 @@
 * [💎 Dropkiq Ruby Gem](ruby-gem.md "The Dropkiq Ruby Gem - Integrate Dropkiq into your Ruby on Rails application for the fastest integration possible.")
 * [🧠 Dropkiq Engine](dropkiq-engine.md "Javascript Dropkiq Engine - Liquid code Autosuggestion for your application")
 * [🚀 Dropkiq UI](dropkiq-ui.md "Javascript Dropkiq UI - Liquid Code Autocompletion for HTML Textarea, input, and contenteditable fields")
+* [🛩 Ace Code Editor](ace.md "Dropkiq Liquid Autocompletion for Ace Code Editor")
 * [📦 Froala WYSIWYG Editor](froala.md "Dropkiq Liquid Autocompletion for Froala WYSIWYG Editor")
 * [🐒 CodeMirror](codemirror.md "Dropkiq Liquid Autocompletion for CodeMirror")
 * [✒️ CKEditor](ckeditor.md "Dropkiq Liquid Autocompletion for CKEditor")
