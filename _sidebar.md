@@ -11,3 +11,4 @@
 * [☄️ Suggestion Filter](suggestionFilter.md "Javascript Dropkiq Engine suggestionFilter Option")
 * [🔭 From Scope](from_scope.md "Initialize Dropkiq without a Schema or Context")
 * [🏎 Using IFrames](iframes.md "Javascript Dropkiq Engine suggestionFilter Option")
+* [⛽️ Custom Filters](custom_filters.md "Add your custom Liquid Filters")
