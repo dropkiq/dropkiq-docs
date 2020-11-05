@@ -8,6 +8,7 @@
 * [📦 Froala WYSIWYG Editor](froala.md "Dropkiq Liquid Autocompletion for Froala WYSIWYG Editor")
 * [🐒 CodeMirror](codemirror.md "Dropkiq Liquid Autocompletion for CodeMirror")
 * [✒️ CKEditor](ckeditor.md "Dropkiq Liquid Autocompletion for CKEditor")
+* [🔍 TinyMCE](tiny-mce.md "Dropkiq Liquid Autocompletion for TinyMCE")
 * [☄️ Suggestion Filter](suggestionFilter.md "Javascript Dropkiq Engine suggestionFilter Option")
 * [🔭 From Scope](from_scope.md "Initialize Dropkiq without a Schema or Context")
 * [🏎 Using IFrames](iframes.md "Javascript Dropkiq Engine suggestionFilter Option")
